@@ -1,11 +1,15 @@
-class Ejercicio1{
-    public int[] runningSum(int[] nums){
-        int[] results = new int [nums.length];
-        results[0] = nums[0];
+public class Ejercicio1{
+    public static void main(String args[]){
+        int numeros[][] = new int [2][2];
 
-        for (int i = 1; i < nums.length; i++){
+        numeros[0][0] = 5;
+        numeros[0][1] = 2;
+        numeros[1][0] = 2;
+        numeros[1][1] = 5;
 
-        }
-        return results;
+        System.out.print("[" + numeros [0][0] + "]");
+        System.out.println("[" + numeros [0][1] + "]");
+        System.out.print("[" + numeros [1][0] + "]");
+        System.out.print("[" + numeros [1][1] + "]");
     }
  }
