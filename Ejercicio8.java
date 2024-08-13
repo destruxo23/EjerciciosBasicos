@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ejercicio8{d
+public class Ejercicio8{
     public static void main(String[]args){
         List<Integer> Numeros;
         Numeros = new ArrayList<>();
